@@ -1,4 +1,4 @@
-//Next palindromic number
+//Next Palindromic Number
 
 function next_pal(val) {
   for (let i = val +1; true; i++) {
