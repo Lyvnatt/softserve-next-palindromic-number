@@ -1,3 +1,5 @@
+//Next palindromic number
+
 function next_pal(val) {
   for (let i = val +1; true; i++) {
    if ([...String(i)].reverse().join('') == i) {
